@@ -1,0 +1,5 @@
+discord
+openai==0.28
+python-dotenv
+keep-alive
+flask
