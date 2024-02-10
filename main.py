@@ -2,6 +2,7 @@ import discord
 import openai
 from discord.ext import commands
 from mylife import ATHENAS
+from keep_alive import keep_alive
 import os
 
 # Configuração do token do Discord
@@ -71,5 +72,5 @@ async def on_message(message):
 
 
 # Conecta o bot ao Discord
-
+keep_alive()
 client.run(TOKEN)
